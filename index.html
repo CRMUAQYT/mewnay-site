@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title data-i18n="title.home">Mewnay</title>
+    <meta name="description" data-i18n-attr="content:meta.home" content="Mewnay" />
+    <meta name="theme-color" content="#3FB8A8" />
+    <link rel="icon" type="image/png" href="assets/favicon.png" />
+
+    <meta property="og:title" content="Mewnay" data-i18n-attr="content:title.home" />
+    <meta property="og:description" content="Mewnay" data-i18n-attr="content:meta.home" />
+    <meta property="og:image" content="assets/LogoMob.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://mewnay.asia/" />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="site-header-inner">
+        <a class="brand" href="/">
+          <img src="assets/LogoMob.png" alt="Mewnay" />
+          <span>Mewnay</span>
+        </a>
+        <nav class="nav">
+          <a href="#features" data-i18n="nav.features">Возможности</a>
+          <a href="/support.html" data-i18n="nav.support">Поддержка</a>
+          <a href="/privacy.html" data-i18n="nav.privacy">Конфиденциальность</a>
+          <a href="/terms.html" data-i18n="nav.terms">Условия</a>
+          <div id="lang-switcher" class="lang-switcher skip-on-mobile"></div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-text">
+          <h1>
+            <span data-i18n="hero.titleLine1">Личные финансы</span><br />
+            <span class="grad" data-i18n="hero.titleLine2">без головной боли</span>
+          </h1>
+          <p class="lead" data-i18n="hero.lead">
+            Mewnay помогает видеть, куда уходят деньги, и достигать целей
+            накоплений.
+          </p>
+          <div class="cta-row">
+            <a class="btn btn-primary is-disabled" aria-disabled="true" data-i18n="hero.cta.appstore">
+              Скоро в App Store
+            </a>
+            <a class="btn btn-secondary" href="#features" data-i18n="hero.cta.inside">
+              Что внутри
+            </a>
+          </div>
+        </div>
+        <div class="hero-art">
+          <span class="glow" aria-hidden="true"></span>
+          <img src="assets/balance_hero.png" alt="Mewnay mascot" />
+        </div>
+      </section>
+
+      <section class="features" id="features">
+        <h2 data-i18n="features.title">Что внутри</h2>
+        <p class="features-lead" data-i18n="features.lead">
+          Никаких связок с банком — только ваши данные и понятные графики.
+        </p>
+        <div class="feature-grid">
+          <div class="feature">
+            <div class="feature-icon">
+              <img src="assets/categories/food.png" alt="" />
+            </div>
+            <h3 data-i18n="f1.title">Учёт транзакций</h3>
+            <p data-i18n="f1.body">
+              Записывайте доходы и расходы за пару касаний.
+            </p>
+          </div>
+          <div class="feature">
+            <div class="feature-icon">
+              <img src="assets/categories/savings.png" alt="" />
+            </div>
+            <h3 data-i18n="f2.title">Цели накоплений</h3>
+            <p data-i18n="f2.body">
+              Откладывайте на мечту с прогресс-баром.
+            </p>
+          </div>
+          <div class="feature">
+            <div class="feature-icon">
+              <img src="assets/categories/investment.png" alt="" />
+            </div>
+            <h3 data-i18n="f3.title">Наглядная аналитика</h3>
+            <p data-i18n="f3.body">
+              Тепловая карта дней, тренды по категориям.
+            </p>
+          </div>
+          <div class="feature">
+            <div class="feature-icon">
+              <img src="assets/categories/travel.png" alt="" />
+            </div>
+            <h3 data-i18n="f4.title">Три языка</h3>
+            <p data-i18n="f4.body">
+              Русский, қазақша, English. Любая валюта мира.
+            </p>
+          </div>
+        </div>
+
+        <div class="showcase">
+          <div class="showcase-art">
+            <img src="assets/mascot_2.png" alt="Mewnay mascot" />
+          </div>
+          <div class="showcase-text">
+            <h2 data-i18n="f2.title">Цели накоплений</h2>
+            <p data-i18n="f2.body">
+              Откладывайте на мечту с прогресс-баром.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer-inner">
+        <div class="footer-brand">
+          <img src="assets/LogoMob.png" alt="Mewnay" />
+          <span data-i18n="footer.copyright">© 2026 Mewnay</span>
+        </div>
+        <nav class="footer-links">
+          <a href="/privacy.html" data-i18n="nav.privacy">Конфиденциальность</a>
+          <a href="/terms.html" data-i18n="nav.terms">Условия</a>
+          <a href="/support.html" data-i18n="nav.support">Поддержка</a>
+        </nav>
+      </div>
+    </footer>
+
+    <script src="i18n.js"></script>
+  </body>
+</html>
