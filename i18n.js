@@ -21,7 +21,7 @@ const I18N = {
     "hero.titleLine1": "Личные финансы",
     "hero.titleLine2": "без головной боли",
     "hero.lead": "Mewnay помогает видеть, куда уходят деньги, и достигать целей накоплений. Просто, наглядно, по-человечески.",
-    "hero.cta.appstore": "Скоро в App Store",
+    "hero.cta.appstore": "Скачать в App Store",
     "hero.cta.inside": "Что внутри",
 
     "features.title": "Что внутри",
@@ -109,7 +109,7 @@ const I18N = {
     "hero.titleLine1": "Жеке қаржы —",
     "hero.titleLine2": "бас ауыртпай",
     "hero.lead": "Mewnay ақшаңыздың қайда кетіп жатқанын көрсетеді және жинақ мақсаттарыңызға жетуге көмектеседі. Қарапайым әрі ыңғайлы.",
-    "hero.cta.appstore": "Жақында App Store-да",
+    "hero.cta.appstore": "App Store-дан жүктеу",
     "hero.cta.inside": "Не бар",
 
     "features.title": "Не бар",
@@ -197,7 +197,7 @@ const I18N = {
     "hero.titleLine1": "Personal finance",
     "hero.titleLine2": "without the headache",
     "hero.lead": "Mewnay helps you see where your money goes and hit your saving goals. Simple, visual, human.",
-    "hero.cta.appstore": "Coming to App Store",
+    "hero.cta.appstore": "Download on the App Store",
     "hero.cta.inside": "What's inside",
 
     "features.title": "What's inside",
