@@ -424,7 +424,9 @@ export async function createScene(canvas, { lang, mobile, still = false }) {
     let x = 0;
     let y = 0;
     if (wide) {
-      x = -lerp(0.2, 0.27, inOutSine(prog(t, 6.2, 6.9)) * (1 - prog(t, 8.2, 8.8))) * w;
+      const orbit = inOutSine(prog(t, 2.25, 2.8)) * (1 - inOutSine(prog(t, 4.7, 5.4)));
+      const tap = inOutSine(prog(t, 6.2, 6.9)) * (1 - prog(t, 8.2, 8.8));
+      x = -lerp(0.2, 0.27, Math.max(orbit, tap)) * w;
       y = (t < END ? lerp(0.08, -0.03, prog(t, 6.1, 7.4)) : 0) * h;
       if (t >= 9.75 && t < END) y = 0.05 * h;
       badgeRoom = 1;
