@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="{{lang}}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>{{meta.title}}</title>
+  <meta name="description" content="{{meta.description}}">
+  <meta name="theme-color" content="#030406">
+  <meta name="color-scheme" content="dark">
+  <meta name="apple-itunes-app" content="app-id=6775704766">
+  <link rel="canonical" href="https://mewnay.asia{{path}}">
+  <link rel="alternate" hreflang="ru" href="https://mewnay.asia/">
+  <link rel="alternate" hreflang="kk" href="https://mewnay.asia/kk/">
+  <link rel="alternate" hreflang="en" href="https://mewnay.asia/en/">
+  <link rel="alternate" hreflang="x-default" href="https://mewnay.asia/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Mewnay">
+  <meta property="og:locale" content="{{locale}}">
+  <meta property="og:url" content="https://mewnay.asia{{path}}">
+  <meta property="og:title" content="{{meta.title}}">
+  <meta property="og:description" content="{{meta.description}}">
+  <meta property="og:image" content="https://mewnay.asia/assets/og/{{lang}}.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" type="image/png" href="/assets/favicon.png">
+  <link rel="apple-touch-icon" href="/assets/icon-180.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="modulepreload" href="/vendor/three.module.min.js">
+  <link rel="preload" as="image" href="/assets/still/{{lang}}-mobile.webp" media="(max-width: 899px)">
+  <link rel="preload" as="image" href="/assets/still/{{lang}}-desktop.webp" media="(min-width: 900px)">
+  {{redirect}}
+</head>
+<body class="landing">
+  <picture class="poster" aria-hidden="true">
+    <source media="(min-width: 900px)" srcset="/assets/still/{{lang}}-desktop.webp">
+    <img src="/assets/still/{{lang}}-mobile.webp" alt="">
+  </picture>
+  <canvas id="gl" aria-hidden="true"></canvas>
+
+  <header class="topbar">
+    <a class="brand" href="{{path}}"><img src="/assets/icon-180.png" alt="" width="34" height="34"><span>Mewnay</span></a>
+    <nav class="links" aria-label="{{nav.menu}}">
+      <a href="#features">{{nav.features}}</a>
+      <a href="/support.html">{{nav.support}}</a>
+    </nav>
+    <div class="langs">
+      <a href="/?lang=ru" data-lang="ru" class="{{cur.ru}}" hreflang="ru">RU</a>
+      <a href="/kk/" data-lang="kk" class="{{cur.kk}}" hreflang="kk">KK</a>
+      <a href="/en/" data-lang="en" class="{{cur.en}}" hreflang="en">EN</a>
+    </div>
+    <a class="pill" href="https://apps.apple.com/app/id6775704766" data-store>{{nav.download}}</a>
+  </header>
+
+  <main>
+    <section class="hero" data-chapter="hero">
+      <div class="copy">
+        <p class="eyebrow reveal">{{hero.eyebrow}}</p>
+        <h1 class="reveal"><span class="line">{{hero.line1}}</span><span class="line accent">{{hero.line2}}</span></h1>
+        <p class="lead reveal">{{hero.lead}}</p>
+        <div class="cta reveal">
+          <a class="button" href="https://apps.apple.com/app/id6775704766" data-store>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0l-5-5m5 5l5-5M5 20h14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            {{hero.cta}}
+          </a>
+          <span class="sub">{{hero.sub}}</span>
+        </div>
+      </div>
+      <a class="scroll" href="#features"><span>{{hero.scroll}}</span><i></i></a>
+    </section>
+
+    <div class="ticker" aria-hidden="true"><div class="track">{{tickerHtml}}</div></div>
+
+    <section class="chapter" data-chapter="widgets" id="features">
+      <div class="copy sticky">
+        <p class="eyebrow">{{widgets.eyebrow}}</p>
+        <h2>{{widgets.title}}</h2>
+        <p class="body">{{widgets.body}}</p>
+      </div>
+    </section>
+
+    <section class="chapter" data-chapter="pay">
+      <div class="copy sticky">
+        <p class="eyebrow">{{pay.eyebrow}}</p>
+        <h2>{{pay.title}}</h2>
+        <p class="body">{{pay.body}}</p>
+        <p class="note">{{pay.note}}</p>
+      </div>
+    </section>
+
+    <section class="chapter" data-chapter="style">
+      <div class="copy sticky">
+        <p class="eyebrow">{{style.eyebrow}}</p>
+        <h2>{{style.title}}</h2>
+        <p class="body">{{style.body}}</p>
+      </div>
+    </section>
+
+    <section class="more" data-chapter="more">
+      <h2 class="reveal">{{more.title}}</h2>
+      <div class="grid">
+        <article class="tile reveal"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V10m6 10V4m6 16v-7m4 7H2"/></svg><h3>{{more.stats.title}}</h3><p>{{more.stats.body}}</p></article>
+        <article class="tile reveal"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.2"/></svg><h3>{{more.goals.title}}</h3><p>{{more.goals.body}}</p></article>
+        <article class="tile reveal"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 16V11a6 6 0 1112 0v5l2 2H4l2-2zm4 4a2 2 0 004 0"/></svg><h3>{{more.reminders.title}}</h3><p>{{more.reminders.body}}</p></article>
+        <article class="tile reveal"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l8 3v6c0 4.5-3.4 8.3-8 9-4.6-.7-8-4.5-8-9V6l8-3z"/><path d="M8.5 12l2.4 2.4 4.6-4.8"/></svg><h3>{{more.privacy.title}}</h3><p>{{more.privacy.body}}</p></article>
+        <article class="tile reveal"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3H6v18h12V7l-4-4zm0 0v4h4M9 13h6M9 17h6"/></svg><h3>{{more.export.title}}</h3><p>{{more.export.body}}</p></article>
+        <article class="tile reveal"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"/></svg><h3>{{more.languages.title}}</h3><p>{{more.languages.body}}</p></article>
+      </div>
+    </section>
+
+    <section class="final" data-chapter="final">
+      <div class="copy">
+        <h2 class="reveal">{{final.title}}</h2>
+        <p class="body reveal">{{final.body}}</p>
+        <div class="cta reveal">
+          <a class="button" href="https://apps.apple.com/app/id6775704766" data-store>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m0 0l-5-5m5 5l5-5M5 20h14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            {{hero.cta}}
+          </a>
+          <span class="sub">{{hero.sub}}</span>
+        </div>
+        <figure class="qr reveal"><img src="/assets/qr-appstore.svg" alt="" width="132" height="132"><figcaption>{{final.qr}}</figcaption></figure>
+        <p class="pro reveal">{{final.pro}}</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="brand"><img src="/assets/icon-180.png" alt="" width="28" height="28"><span>{{footer.copyright}}</span></div>
+    <nav>
+      <a href="/privacy.html">{{nav.privacy}}</a>
+      <a href="/terms.html">{{nav.terms}}</a>
+      <a href="/support.html">{{nav.support}}</a>
+      <a href="mailto:support@mewnay.asia">{{footer.contact}}</a>
+    </nav>
+  </footer>
+
+  <a class="dock-cta" href="https://apps.apple.com/app/id6775704766" data-store>{{hero.cta}}</a>
+
+  <script>window.MEWNAY = { lang: '{{lang}}' };</script>
+  <script type="module" src="/js/site.js"></script>
+</body>
+</html>

@@ -1,0 +1,272 @@
+{
+  "ru": {
+    "lang": "ru",
+    "path": "/",
+    "locale": "ru_RU",
+    "meta": {
+      "title": "Mewnay — куда уходят деньги, видно сразу",
+      "description": "Учёт расходов для iPhone: виджеты на экране, автозапись оплат Apple Pay, понятная статистика и цели. Бесплатно в App Store."
+    },
+    "nav": {
+      "features": "Возможности",
+      "support": "Поддержка",
+      "privacy": "Конфиденциальность",
+      "terms": "Условия",
+      "download": "Скачать",
+      "menu": "Меню"
+    },
+    "hero": {
+      "eyebrow": "Учёт денег для iPhone",
+      "line1": "Куда уходят",
+      "line2": "деньги?",
+      "lead": "Mewnay отвечает сразу: баланс на экране телефона, автозапись Apple Pay и статистика, понятная с первого взгляда.",
+      "cta": "Скачать в App Store",
+      "sub": "Бесплатно · iPhone, iOS 16.4+",
+      "scroll": "Листайте"
+    },
+    "widgets": {
+      "eyebrow": "Виджеты",
+      "title": "Баланс прямо на экране",
+      "body": "Четыре виджета для главного экрана: баланс, траты за сегодня, серия дней и прогресс цели. Открывать приложение не нужно."
+    },
+    "pay": {
+      "eyebrow": "Apple Pay",
+      "title": "Оплатили — Mewnay уже записал",
+      "body": "Приложили телефон к терминалу, и пришло уведомление: время, сумма и категория. Если категорию не понять, Mewnay спросит одним касанием.",
+      "note": "Включается один раз через приложение «Команды»."
+    },
+    "style": {
+      "eyebrow": "Под себя",
+      "title": "Настройте под себя",
+      "body": "Шесть фонов для карты баланса или своё фото. 9 языков и 26 валют: в Казахстане сразу тенге, за границей — доллар."
+    },
+    "more": {
+      "title": "И это ещё не всё",
+      "stats": {
+        "title": "Понятная статистика",
+        "body": "Куда ушли деньги — по категориям, дням и неделям."
+      },
+      "goals": {
+        "title": "Цели и серии",
+        "body": "Копите на мечту и держите ритм каждый день."
+      },
+      "reminders": {
+        "title": "Умные напоминания",
+        "body": "Не больше пяти за десять дней. Только по делу."
+      },
+      "privacy": {
+        "title": "Без доступа к банку",
+        "body": "Mewnay не подключается к счетам. Вход через Apple."
+      },
+      "export": {
+        "title": "Экспорт в PDF и Excel",
+        "body": "Отчёт для себя или для семьи в пару касаний."
+      },
+      "languages": {
+        "title": "9 языков, 26 валют",
+        "body": "Қазақша, русский, English и ещё шесть."
+      }
+    },
+    "final": {
+      "title": "Деньги под контролем.",
+      "body": "Скачайте Mewnay и запишите первую трату за пару секунд.",
+      "qr": "Наведите камеру iPhone",
+      "pro": "Mewnay Pro открывает безлимитные цели, глубокую аналитику и экспорт без ограничений."
+    },
+    "footer": {
+      "copyright": "© 2026 Mewnay",
+      "contact": "support@mewnay.asia"
+    },
+    "ticker": [
+      "Виджеты",
+      "Apple Pay",
+      "Статистика",
+      "Цели",
+      "Серии",
+      "9 языков",
+      "26 валют",
+      "Бесплатно"
+    ],
+    "tickerHtml": ""
+  },
+  "kk": {
+    "lang": "kk",
+    "path": "/kk/",
+    "locale": "kk_KZ",
+    "meta": {
+      "title": "Mewnay — ақшаң қайда кететіні бірден көрінеді",
+      "description": "iPhone-ға арналған шығын есебі: экрандағы виджеттер, Apple Pay төлемдерін автожазу, түсінікті статистика және мақсаттар. App Store-да тегін."
+    },
+    "nav": {
+      "features": "Мүмкіндіктер",
+      "support": "Қолдау",
+      "privacy": "Құпиялылық",
+      "terms": "Шарттар",
+      "download": "Жүктеу",
+      "menu": "Мәзір"
+    },
+    "hero": {
+      "eyebrow": "iPhone-ға арналған қаржы есебі",
+      "line1": "Ақшаң қайда",
+      "line2": "кетеді?",
+      "lead": "Mewnay бірден көрсетеді: баланс телефон экранында, Apple Pay төлемдері өзі жазылады, ал статистиканы бір қарағаннан түсінесің.",
+      "cta": "App Store-дан жүктеу",
+      "sub": "Тегін · iPhone, iOS 16.4+",
+      "scroll": "Төмен айналдыр"
+    },
+    "widgets": {
+      "eyebrow": "Виджеттер",
+      "title": "Баланс тура экраныңда",
+      "body": "Басты экранға төрт виджет: баланс, бүгінгі шығын, күндер сериясы және мақсат прогресі. Қосымшаны ашудың қажеті жоқ."
+    },
+    "pay": {
+      "eyebrow": "Apple Pay",
+      "title": "Төледің — Mewnay жазып қойды",
+      "body": "Телефонды терминалға тигіздің — уақыты, сомасы және санаты бар хабарлама келеді. Санатты анықтай алмаса, Mewnay бір басумен сұрайды.",
+      "note": "Shortcuts (Командалар) қосымшасы арқылы бір рет қосылады."
+    },
+    "style": {
+      "eyebrow": "Өзіңе ыңғайла",
+      "title": "Өзіңе ұнайтындай өзгерт",
+      "body": "Баланс картасына алты фон немесе өз суретің. 9 тіл және 26 валюта: Қазақстанда бірден теңге, шетелде — доллар."
+    },
+    "more": {
+      "title": "Бұл бәрі емес",
+      "stats": {
+        "title": "Түсінікті статистика",
+        "body": "Ақша қайда кеткені — санат, күн және апта бойынша."
+      },
+      "goals": {
+        "title": "Мақсаттар мен серия",
+        "body": "Арманыңа жина, күн сайын ырғақты сақта."
+      },
+      "reminders": {
+        "title": "Ақылды еске салғыштар",
+        "body": "Он күнде бестен аспайды. Тек керек кезде."
+      },
+      "privacy": {
+        "title": "Банкке қосылмайды",
+        "body": "Mewnay шотыңа қосылмайды. Apple арқылы кіру."
+      },
+      "export": {
+        "title": "PDF және Excel экспорт",
+        "body": "Өзіңе немесе отбасыңа есеп бірнеше басумен."
+      },
+      "languages": {
+        "title": "9 тіл, 26 валюта",
+        "body": "Қазақша, русский, English және тағы алтауы."
+      }
+    },
+    "final": {
+      "title": "Ақшаңды басқар.",
+      "body": "Mewnay-ді жүктеп, алғашқы шығынды бірнеше секундта жаз.",
+      "qr": "iPhone камерасын бағытта",
+      "pro": "Mewnay Pro: шексіз мақсаттар, терең аналитика және шектеусіз экспорт."
+    },
+    "footer": {
+      "copyright": "© 2026 Mewnay",
+      "contact": "support@mewnay.asia"
+    },
+    "ticker": [
+      "Виджеттер",
+      "Apple Pay",
+      "Статистика",
+      "Мақсаттар",
+      "Серия",
+      "9 тіл",
+      "26 валюта",
+      "Тегін"
+    ],
+    "tickerHtml": ""
+  },
+  "en": {
+    "lang": "en",
+    "path": "/en/",
+    "locale": "en_US",
+    "meta": {
+      "title": "Mewnay — see where your money goes",
+      "description": "Expense tracker for iPhone: home screen widgets, automatic Apple Pay logging, clear statistics and goals. Free on the App Store."
+    },
+    "nav": {
+      "features": "Features",
+      "support": "Support",
+      "privacy": "Privacy",
+      "terms": "Terms",
+      "download": "Download",
+      "menu": "Menu"
+    },
+    "hero": {
+      "eyebrow": "Money tracking for iPhone",
+      "line1": "Where does your",
+      "line2": "money go?",
+      "lead": "Mewnay shows you at a glance: your balance on the home screen, Apple Pay payments logged for you, and stats you understand in a second.",
+      "cta": "Get it on the App Store",
+      "sub": "Free · iPhone, iOS 16.4+",
+      "scroll": "Scroll"
+    },
+    "widgets": {
+      "eyebrow": "Widgets",
+      "title": "Your balance, right on screen",
+      "body": "Four home screen widgets: balance, today's spending, your streak and goal progress. No need to open the app."
+    },
+    "pay": {
+      "eyebrow": "Apple Pay",
+      "title": "You pay. Mewnay logs it.",
+      "body": "Tap your phone at the terminal and a notification arrives with the time, amount and category. If the category is unclear, Mewnay asks with one tap.",
+      "note": "Set up once with the Shortcuts app."
+    },
+    "style": {
+      "eyebrow": "Personal",
+      "title": "Make it yours",
+      "body": "Six backgrounds for your balance card, or your own photo. 9 languages and 26 currencies, set up for your country automatically."
+    },
+    "more": {
+      "title": "And there's more",
+      "stats": {
+        "title": "Clear statistics",
+        "body": "Where the money went, by category, day and week."
+      },
+      "goals": {
+        "title": "Goals and streaks",
+        "body": "Save for what you want and keep the habit every day."
+      },
+      "reminders": {
+        "title": "Smart reminders",
+        "body": "Never more than five in ten days. Only when it matters."
+      },
+      "privacy": {
+        "title": "No bank access",
+        "body": "Mewnay never connects to your accounts. Sign in with Apple."
+      },
+      "export": {
+        "title": "PDF and Excel export",
+        "body": "A report for you or your family in a couple of taps."
+      },
+      "languages": {
+        "title": "9 languages, 26 currencies",
+        "body": "English, Русский, Қазақша and six more."
+      }
+    },
+    "final": {
+      "title": "Take control of your money.",
+      "body": "Get Mewnay and log your first expense in seconds.",
+      "qr": "Point your iPhone camera here",
+      "pro": "Mewnay Pro adds unlimited goals, deeper analytics and unlimited export."
+    },
+    "footer": {
+      "copyright": "© 2026 Mewnay",
+      "contact": "support@mewnay.asia"
+    },
+    "ticker": [
+      "Widgets",
+      "Apple Pay",
+      "Statistics",
+      "Goals",
+      "Streaks",
+      "9 languages",
+      "26 currencies",
+      "Free"
+    ],
+    "tickerHtml": ""
+  }
+}
